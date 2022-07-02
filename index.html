@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Basket world</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
@@ -38,21 +39,27 @@
       <section class="ingresos">
          <h3>Nuevos ingresos</h3>
        <div class="tarjetas">
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+                               data-aos-easing="ease-out-cubic"
+                               data-aos-duration="2000">
             <a href="./pages/ventana_compra.html"><img src="./imagenes/primera.jpg" class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Pelota Molten GG7X N°7</li>
               <li class="tarjeta-precio">$21500</li>
             </ul>
           </div>
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+                               data-aos-easing="ease-out-cubic"
+                               data-aos-duration="2000">
             <a href=""><img src="./imagenes/segunda.jpg"  class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Zapatillas Under Armour Embiid 1</li>
               <li class="tarjeta-precio">$27000</li>
             </ul>
           </div>
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+                               data-aos-easing="ease-out-cubic"
+                               data-aos-duration="2000">
             <a href=""><img src="./imagenes/tercera.jpg"  class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Buzo canguro Golden States </li>
@@ -65,28 +72,36 @@
         <section class="recom">
         <h3>Recomendados</h3>
         <div class="tarjetas"> 
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <a href=""><img src="./imagenes/cuarta.jpg"  class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Mini aro de Basket</li>
               <li class="tarjeta-precio">$1050</li>
             </ul>
           </div>
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+                               data-aos-easing="ease-out-cubic"
+                               data-aos-duration="2000">
             <a href=""><img src="./imagenes/quinta.jpg"  class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Camiseta de la seleccion(Campazzo)</li>
               <li class="tarjeta-precio">$8000</li>
             </ul>
           </div>
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+                               data-aos-easing="ease-out-cubic"
+                               data-aos-duration="2000">
             <a href=""><img src="./imagenes/sexta.jpg"  class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Nike Poysite Max Barkle</li>
               <li class="tarjeta-precio">$35000</li>
             </ul>
           </div>
-          <div class="tarjeta">
+          <div class="tarjeta" data-aos="flip-left"
+                               data-aos-easing="ease-out-cubic"
+                               data-aos-duration="2000">
             <a href=""><img src="./imagenes/septima.jpg"  class="tarjeta-imagen" alt=""></a>
             <ul class="ul__tarjeta">
               <li class="tarjeta-titulo">Pelota molten femenino N°6</li>
@@ -108,5 +123,9 @@
      </div>
     </footer>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

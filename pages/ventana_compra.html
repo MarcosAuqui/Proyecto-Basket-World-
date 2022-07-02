@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -65,14 +66,18 @@
                 </p>
             </div>
           <div class="tarjetas">
-            <div class="tarjeta">
+            <div class="tarjeta"  data-aos="flip-left"
+                                  data-aos-easing="ease-out-cubic"
+                                  data-aos-duration="2000">
                 <a href=""><img src="../imagenes/segunda.jpg"  class="tarjeta-imagen" alt=""></a>
                     <ul class="ul__tarjeta">
                         <li class="tarjeta-titulo">Zapatillas Under Armour Embid 1</li>
                         <li class="tarjeta-precio">$27000</li>
                     </ul>
             </div>
-            <div class="tarjeta">
+            <div class="tarjeta" data-aos="flip-left"
+                                 data-aos-easing="ease-out-cubic"
+                                 data-aos-duration="2000">
                 <a href=""><img src="../imagenes/tercera.jpg"  class="tarjeta-imagen" alt=""></a>
                     <ul class="ul__tarjeta">
                         <li class="tarjeta-titulo">Buzo canguro Golden States</li>
@@ -94,5 +99,9 @@
                 </div>
             </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
