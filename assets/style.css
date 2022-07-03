@@ -11,19 +11,8 @@ body{
 
 }
 
-.grid-container{
-    display: grid;
-    grid-template-areas: "header header header header"
-                         "main main main main"
-                         "img-flotante img-flotante img-flotante img-flotante"
-                         "ingreso ingreso ingreso ingreso"
-                         "recom recom recom recom"
-                         "footer footer footer footer";
-}
-
 /*header*/
 header{
-    grid-area: header;
     background-color: #A11A1A;
      width: 100%;
 }
@@ -68,27 +57,15 @@ nav{
 }
 
 /*main*/
-main{
-    grid-area: main;
-}
 
 
 .img-flotante{
-    grid-area:img-flotante;
     border: solid rgb(191, 70, 70) .5px;
 }
 .img-flotante img{
     width: 100%;
 }
 
-.ingresos{
-    grid-area: ingreso;
-
-}
-
-.recom{
-    grid-area: recom;
-}
 
 .tarjetas{
     display: flex;
@@ -142,21 +119,8 @@ ul{
 
 
 /*Carrito*/
-.grid-carrito{
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    " main-carrito main-carrito main-carrito"
-    "tarjetas-carrito tarjetas-carrito tarjetas-carrito"
-    "opciones-carrito opciones-carrito opciones-carrito"
-    "footer footer footer";
-}
 
-.main-carrito{
-    grid-area: main-carrito;
-}
 .tarjetas-carrito{
-    grid-area: tarjetas-carrito;
     display: flex;
     flex-direction: row;
 }
@@ -165,12 +129,10 @@ ul{
      margin: 10px;
 }
 .opciones-carrito{
-    grid-area: opciones-carrito;
     display: flex;
     flex-direction: row;
 }
 .footer-carrito{
-    grid-area: footer;
     background-color: #d11919;
 }
 
@@ -180,12 +142,6 @@ ul{
 
 
 
-.email{
-
-}
-.contraseña{
-
-}
 .logo-face{
     width: 40px;
 }
@@ -196,18 +152,6 @@ ul{
 
 /*responsive*/ 
 @media screen and (max-width: 576px){
-    .grid-carrito{
-        display: grid;
-        grid-template-areas: 
-        "header header header"
-        " main-carrito main-carrito main-carrito"
-        "tarjetas-carrito tarjetas-carrito tarjetas-carrito"
-        "opciones-carrito opciones-carrito opciones-carrito"
-        "footer footer footer";
-    }
-    .header{
-        grid-area: header;
-    }
     .logo{
         width: 130px;
     }
@@ -252,18 +196,6 @@ ul{
         font-size: 13px;
     } 
     /*home*/
-    .grid-container{
-        display: grid;
-        grid-template-areas: "header header header header"
-                             "main main main main"
-                             "img-flotante img-flotante img-flotante img-flotante"
-                             "ingreso ingreso ingreso ingreso"
-                             "recom recom recom recom"
-                             "footer footer footer footer";
-    }
-    .header{
-        grid-area: header;
-    }
     .logo{
         width: 130px;
     }
@@ -284,24 +216,10 @@ ul{
     .iconnav{
         width: 20px;
     }
-    .img-flotante{
-        grid-area:img-flotante;
-
-    }
     .img-flotante img{
         width: 100%;
         
     }
-    
-    .ingresos{
-        grid-area: ingreso;
-    
-    }
-    
-    .recom{
-        grid-area: recom;
-    }
-    
     .tarjetas{
         display: flex;
         flex-direction: row;
@@ -331,7 +249,6 @@ ul{
 /*footer*/
 
 footer{
-    grid-area: footer;
     background-color: #d11919;
     padding: 1em;
     display: flex;
