@@ -15,14 +15,17 @@
      <div class="logo-contenedor">
        <img src="./imagenes/Logo.png" class="logo" alt="">
      </div>
-     <div class="busqueda-contenedor">
-       <img src="../imagenes/search.png" class="busqueda" alt=""><input type="search" class="busqueda-casilla" >
-     </div>
+     <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
      <div class="menu-contenedor">
        <img src="../imagenes/icono_menu.png" class="menu" alt="">
      </div>
       <nav class="nav">
-        <ul class="nav__ul">
+        <ul class="nav__ul row col-12 justify-content-around">
             <li class="nav__li"><a href=""><img src="./imagenes/favoritos.png" alt="">Favoritos</a></li>
             <li class="nav__li"><a href="./pages/carrito.html"><img src="./imagenes/Carrito.png" alt="">Carrito</a></li>
             <li class="nav__li"><a href="index.html"><img src="./imagenes/home.png" alt="">Home</a></li>

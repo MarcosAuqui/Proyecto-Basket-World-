@@ -31,15 +31,21 @@ header{
     display: flex;
     justify-content: center;
 }
-
+/*
 .busqueda-contenedor{
     display: flex;
     justify-content: center;
-}
-.busqueda-casilla{
-    width: 350px;
+}*/
+.form-control{
     background-color:#9c4c4c ;
 }
+.container-fluid{
+    width: 350px;
+}
+/*.busqueda-casilla{
+    width: 350px;
+    background-color:#9c4c4c ;
+}*/
 .menu-contenedor{
     display: flex;
     justify-content: end;
