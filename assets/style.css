@@ -74,10 +74,11 @@ nav{
 }
 
 /*main*/
+/*
 main{
-    /*grid-area: main;*/
+    /*grid-area: main;
 }
-
+*/
 
 .img-flotante{
    /* grid-area:img-flotante;*/
@@ -87,21 +88,22 @@ main{
     width: 100%;
     height: 130px;
 }
-
+/*
 .ingresos{
-    /*grid-area: ingreso;
+    grid-area: ingreso;
 */
-}
 
+
+/*
 .recom{
-   /* grid-area: recom;
-   */
-}
-
+    grid-area: recom;
+   
+}*/
+/*
 .tarjetas{
     display: flex;
     flex-direction: row;
-}
+}*/
  .tarjeta{
      width: 250;
      margin: 10px;
@@ -161,10 +163,11 @@ ul{
     "footer footer footer";
 }
 */
+/*
 .main-carrito{
 
-    /*grid-area: main-carrito;*/
-}
+    grid-area: main-carrito;
+}*/
 .tarjetas-carrito{
     /*grid-area: tarjetas-carrito;*/
     display: flex;
@@ -189,14 +192,6 @@ ul{
 
 /*inicio de sesion*/
 
-
-
-.email{
-
-}
-.contraseña{
-
-}
 .logo-face{
     width: 40px;
 }
@@ -218,9 +213,10 @@ ul{
         "footer footer footer";
     }
     */
+    /*
     .header{
       /*  grid-area: header;
-   */ }
+    } */
     .logo{
         width: 130px;
     }
@@ -279,9 +275,10 @@ ul{
                              "footer footer footer footer";
     }
     */
+    /*
     .header{
-   /*     grid-area: header;
-    */}
+           grid-area: header;
+    }*/
     .logo{
         width: 130px;
     }
@@ -302,24 +299,23 @@ ul{
     .iconnav{
         width: 20px;
     }
+    /*
     .img-flotante{
-        /*grid-area:img-flotante;
-*/
-    }
+        grid-area:img-flotante;
+    } */
     .img-flotante img{
         width: 100%;
         
     }
-    
+    /*
     .ingresos{
-        /*grid-area: ingreso;
-    */
-    }
-    
+        grid-area: ingreso;
+    }*/
+    /*
     .recom{
         /*grid-area: recom;
-        */
-    }
+        
+    }*/
     
     .tarjetas{
         display: flex;
