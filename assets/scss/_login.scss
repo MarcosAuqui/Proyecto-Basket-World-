@@ -1,7 +1,24 @@
+@mixin btn-inicio {
+    background-color: rgb(178, 47, 47);
+    font-size: 15px;
+    border-radius: 8px; 
+}
 /*inicio de sesion*/
 .logo-face{
     width: 40px;
 }
 .logo-google{
     width: 40px;
+}
+.btn{
+ @include btn-inicio;
+}
+/*Regiostro*/
+
+// .form-label{
+//     background-color: ;
+// }}.
+.form-control{
+    background-color:#9c4c4c ;
+    border: 8px;
 }

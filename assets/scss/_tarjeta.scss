@@ -1,15 +1,18 @@
+@import "_variables.scss";
 .tarjeta{
     width: 250px;
     margin: 10px;
 }
 .tarjeta-titulo{
-    color:rgb(162, 46, 40);
+    // color:rgb(162, 46, 40);
+    color: map-get($pallete, titulo );
     font-size: 20px;
     padding: 5px;
 }
 .tarjeta-precio{
     font-size: 17px;
-    color: rgb(93, 26, 23);
+    color: map-get($pallete, precio )
+    // color: rgb(93, 26, 23);
 }
 .tarjeta-imagen{
     width: 100%;
