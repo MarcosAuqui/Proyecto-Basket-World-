@@ -20,6 +20,10 @@
     }
     .btn-carrito{
         @include btn-carrito
+
     }
-    
+    .btn-carrito:hover {
+        background-color: #e65c5c;
+        color: white;
+    }
 }

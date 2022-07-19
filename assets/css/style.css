@@ -123,6 +123,10 @@ a {
   font-size: 15px;
   border-radius: 8px;
 }
+.opciones-carrito .btn-carrito:hover {
+  background-color: #e65c5c;
+  color: white;
+}
 
 /*inicio de sesion*/
 .logo-face {
