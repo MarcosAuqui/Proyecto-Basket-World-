@@ -14,6 +14,7 @@
 }
 .imagen-compra{
   width: 405px;
+  height: 300px;
   border: solid black 3px;
 }
 .descripcion-producto{
@@ -21,3 +22,14 @@
    margin-top: 5px;
    background-color: rgb(227, 151, 125);
 }
+
+@media (max-width: 507px){
+   .imagen-compra{
+      width: 305px;
+      height: 200px;
+   }
+   .foto-muestra{
+      width: 66.8px;
+      height: 66.66px;
+   }
+} 
