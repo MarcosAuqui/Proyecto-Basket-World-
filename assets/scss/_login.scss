@@ -4,15 +4,27 @@
     border-radius: 8px; 
 }
 /*inicio de sesion*/
+.txt-inicio-sesion{
+    padding-left: 10px;
+}
+.form-label{
+    padding-left: 10px
+}
+.form-check-input{
+    padding-left: 10px;
+}
 .logo-face{
     width: 40px;
+    padding-left: 10px;
 }
 .logo-google{
     width: 40px;
+    padding-left: 10px;
 }
 .btn{
  @include btn-inicio;
 }
+
 /*Regiostro*/
 
 // .form-label{
@@ -21,4 +33,5 @@
 .form-control{
     background-color:#9c4c4c ;
     border: 8px;
+    margin: 5px;
 }
