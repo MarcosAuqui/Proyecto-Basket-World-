@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/f1dbbe778c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="grid-container">
+  <div class="">
     <header class="header">
       <div class="logo-contenedor">
         <a href="../index.html"> <img src="../imagenes/Logo.png" class="logo" alt="logo"></a>
@@ -46,20 +46,21 @@
     </header>
     <main class="main">
       <h1 class="txt-inicio-sesion">Inicia sesión</h1>
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Correo</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <form class="d-flex justify-content-center"> 
+        <div class="d-flex justify-content-end flex-column w-75" >
+            <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+            <label for="inputPassword5" class="form-label">Contraseña</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepto terminos y condiciones</label>
+            </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-        </div>
-        
       </form>
       <a href=""><b>¿Olvidaste tu contraseña?</b></a>
       <a href="../index.html"><button type="submit" class="btn btn-primary">Ingresar</button></a>

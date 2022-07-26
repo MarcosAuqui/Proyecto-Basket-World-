@@ -19,7 +19,8 @@
         padding: 5px;
     }
     .btn-carrito{
-        @include btn-carrito
+        @include btn-carrito;
+        padding: 5px;
 
     }
     .btn-carrito:hover {
