@@ -19,6 +19,10 @@ header {
   padding-bottom: 2px;
 }
 
+.busqueda {
+  margin-bottom: 10px;
+}
+
 footer {
   background-color: #d11919;
   padding: 1em;
